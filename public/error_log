@@ -1,0 +1,2 @@
+[19-Jun-2022 18:02:11 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 10727424 bytes) in /home/server1/webhosting/hchossfx/subdomains/epark/vendor/spatie/ignition/resources/views/errorPage.php on line 32
+[19-Jun-2022 18:03:42 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 10727424 bytes) in /home/server1/webhosting/hchossfx/subdomains/epark/vendor/spatie/ignition/resources/views/errorPage.php on line 32
