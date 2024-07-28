@@ -19,7 +19,7 @@
     <label for="exampleInputEmail1">Place</label>
     <input type="text" class="form-control" id="author" name="place" value="{{$data->place}}" aria-describedby="emailHelp" placeholder="Enter Place" required>
    </div>
-   <div class="form-group">
+   {{-- <div class="form-group">
     <label for="exampleInputEmail1">Batch</label>
     <input type="hidden" id="select" value="{{$data->batch}}">
     <select id="batchsel" class="form-control" name="batch" required>
@@ -36,7 +36,7 @@
   <option value="Others">Others</option>
 
 </select>
-   </div>
+   </div> --}}
 
   <!-- <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -53,12 +53,12 @@
 </div>
 
 <script>
-    var select = $('#select').val();
-$("#batchsel > option").each(function() {
-    if(this.value == select){
-        $('#batchsel > option[value="'+this.value+'"]').attr("selected","selected");
-    }
-});
+//     var select = $('#select').val();
+// $("#batchsel > option").each(function() {
+//     if(this.value == select){
+//         $('#batchsel > option[value="'+this.value+'"]').attr("selected","selected");
+//     }
+// });
 $('#members_form').submit(function (){
     $('#loading').show();
     $('#submit_text').text('loading');

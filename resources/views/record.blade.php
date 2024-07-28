@@ -87,8 +87,8 @@
                                         class="text-dark font-weight-bold ms-sm-2"></span></span>
                                 <span class="mb-2 text-xs">Place: <span id="memberPlace"
                                         class="text-dark ms-sm-2 font-weight-bold"></span></span>
-                                <span class="text-xs">Batch: <span id="memberBatch"
-                                        class="text-dark ms-sm-2 font-weight-bold"></span></span>
+                                {{-- <span class="text-xs">Batch: <span id="memberBatch"
+                                        class="text-dark ms-sm-2 font-weight-bold"></span></span> --}}
                             </div>
 
                         </li>
@@ -136,7 +136,7 @@ function selectMember() {
           $('#prev-head').hide();
             $('#memberName').text(response.name);
             $('#memberPlace').text(response.place);
-            $('#memberBatch').text(response.batch);
+            // $('#memberBatch').text(response.batch);
             if (response.record != '') {
               $('#prev-head').show();
               $('#bookSelection').hide();

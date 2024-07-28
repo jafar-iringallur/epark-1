@@ -21,7 +21,7 @@
                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">ID</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Place</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Batch</th>
+                      {{-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Batch</th> --}}
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Fine</th>
                       <th class="text-secondary opacity-7"></th>
                      
@@ -45,9 +45,9 @@
                         <p class="text-xs font-weight-bold mb-0">{{$member->place}}</p>
                    
                       </td>
-                      <td class="align-middle text-center text-sm">
+                      {{-- <td class="align-middle text-center text-sm">
                       <span class="text-secondary text-xs font-weight-bold">{{$member->batch}}</span>
-                      </td>
+                      </td> --}}
                       <td class="align-middle text-center text-sm">
                       <span class="text-secondary text-xs font-weight-bold">{{$member->fine}}</span>
                       </td>

@@ -3,7 +3,7 @@ $( document ).ready(function() {
   $("#selMember").select2();
   $("#selBook").select2();
   $("#categorysel").select2();
-  $("#batchsel").select2();
+  // $("#batchsel").select2();
   $("#myInput").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#myTable tr").filter(function() {

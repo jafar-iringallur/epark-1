@@ -187,7 +187,7 @@ $book->book_id,
       $table->member_id = $request->member_id;
       $table->name = $request->name;
       $table->place = $request->place;
-      $table->batch = $request->batch;
+      $table->batch = $request->batch ?? NULL;
       $table->save();
       return response()->json([
         'success' => true,
@@ -202,7 +202,7 @@ $book->book_id,
     $table->member_id = $request->member_id;
     $table->name = $request->name;
     $table->place = $request->place;
-    $table->batch = $request->batch;
+    $table->batch = $request->batch ?? NULL;
     $table->save();
     return response()->json([
       'success' => true,

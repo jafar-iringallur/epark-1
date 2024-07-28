@@ -18,7 +18,7 @@
     <label for="exampleInputEmail1">Place</label>
     <input type="text" class="form-control" id="author" name="place" aria-describedby="emailHelp" placeholder="Enter Member Place" required>
    </div>
-   <div class="form-group">
+   {{-- <div class="form-group">
     <label for="exampleInputEmail1">Batch</label>
     <select id="batchsel" class="form-control" name="batch" required>
   <option value="Plus One">Plus One</option>
@@ -34,7 +34,7 @@
   <option value="Others">Others</option>
 
 </select>
-   </div>
+   </div> --}}
 
   <!-- <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">

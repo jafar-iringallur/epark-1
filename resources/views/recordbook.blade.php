@@ -18,7 +18,7 @@
                     <tr>
                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Member Name</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Place</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Batch</th>
+                      {{-- <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Batch</th> --}}
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Type</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Taken Date</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Closed Date</th>
@@ -38,9 +38,9 @@
                           <p class="text-xs font-weight-bold mb-0">{{$record->place}}</p>
                         </div>
                       </td>
-                      <td>
+                      {{-- <td>
                         <p class="text-xs font-weight-bold mb-0">{{$record->batch}}</p>
-                      </td>
+                      </td> --}}
                       <td>
                       @if($record->type == 1)
                         <p class="text-xs font-weight-bold mb-0">Normal</p>
